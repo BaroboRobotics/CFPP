@@ -23,7 +23,7 @@ set_target_properties(cfpp
            )
 
 target_include_directories(cfpp
-    PUBLIC include
+    PUBLIC ../include
     )
 
 find_library(coreFoundationLib CoreFoundation)
