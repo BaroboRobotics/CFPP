@@ -1,7 +1,7 @@
 function(make_test name)
 	add_executable(${name} ${name}.cpp)
 	target_link_libraries(${name} PRIVATE cfpp)
-	add_test(NAME ${name} COMMAND${name})
+	add_test(NAME ${name} COMMAND ${name})
 endfunction()
 
 make_test(Test-CFPP-Array)
