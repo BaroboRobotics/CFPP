@@ -2,7 +2,6 @@ cmake_minimum_required(VERSION 3.2.1)
 project(CFPP CXX)
 
 add_subdirectory(source)
-add_library(cfpp ${sources})
 
 set_target_properties(cfpp 
     PROPERTIES CXX_STANDARD 11

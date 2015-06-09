@@ -15,3 +15,4 @@ set(sources
 	CFPP-UUID.cpp
 	CFPP-WriteStream.cpp
 	PARENT_SCOPE)
+add_library(cfpp ${sources})
